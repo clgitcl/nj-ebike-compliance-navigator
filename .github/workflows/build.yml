@@ -1,0 +1,32 @@
+User
+ ↓
+React questionnaire
+ ↓
+ASP.NET Core API
+ ↓
+Classification Rules
+ ↓
+Compliance Result
+ ↓
+PostgreSQL
+
+
+Does the bike have pedals?
+        ↓
+Is it pedal-assist?
+        ↓
+Does it have a throttle?
+        ↓
+Maximum assisted speed?
+        ↓
+Motor characteristics?
+        ↓
+        ▼
+┌──────────────────────────┐
+│ Classification Result    │
+│                          │
+│ Registration: Required   │
+│ License: Required        │
+│ Insurance: [result]      │
+│ Next Steps: ...          │
+└──────────────────────────┘
